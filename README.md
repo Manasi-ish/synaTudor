@@ -1,3 +1,10 @@
+> **Synaptics `06cb:00fd` (Lenovo IdeaPad / ThinkBook)?** This branch has working support.
+>
+> **Easiest:** run the one-command installer from **[Manasi-ish/synaptics-06cb-00fd-linux](https://github.com/Manasi-ish/synaptics-06cb-00fd-linux)** (`git clone ... && sudo ./install.sh`).
+> Fixes + manual steps: [`STATUS_WORKING.md`](STATUS_WORKING.md) - system integration: [`contrib/`](contrib/).
+
+---
+
 # Synaptics Tudor Driver Relinking Project
 This project attempts to dynamically relink the driver of the Synaptics Tudor
 family of fingerprint sensors at run time, allowing them to run and provide
