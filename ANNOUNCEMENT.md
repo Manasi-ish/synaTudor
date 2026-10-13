@@ -54,7 +54,6 @@ Then enable fingerprint login: `sudo pam-auth-update --enable fprintd`
 
 ## Reproducibility / tooling included
 
-- `REVERSE_ENGINEERING_HANDBOOK.md` — the complete methodology and findings.
 - `tools/tudor-probe.sh` — rebuilds with debug stubs and prints the **next** missing WDF
   index or Win32 import, with a gdb backtrace.
 - `tools/wdffuncenum.h` — the WDF function-index table, vendored.

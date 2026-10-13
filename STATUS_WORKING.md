@@ -81,7 +81,7 @@ $ ls /var/lib/fprint/$USER/syna_tudor_relink/99C1E62F6F950000/
 - `tudor-host/inc/tudor/libfprint-proto.h` — raised record/message size caps.
 - `libfprint-tod/60-tudor-libfprint-tod.rules` — added `06cb:00fd`.
 - `libtudor/meson.build`, `libtudor/download_driver.sh`, `libtudor/installer.sha` — IdeaPad driver package, build deps, flags.
-- Docs/tools: `REVERSE_ENGINEERING_HANDBOOK.md`, `ANNOUNCEMENT.md`, `contrib/`, `tools/tudor-probe.sh`, `tools/wdffuncenum.h`.
+- Docs/tools: `ANNOUNCEMENT.md`, `contrib/`, `tools/tudor-probe.sh`, `tools/wdffuncenum.h`.
 
 ## Reproduce from scratch
 
@@ -111,4 +111,3 @@ When iterating on the driver itself, use `tools/tudor-probe.sh` (builds with
 
 - Runs Synaptics' proprietary Windows binaries (see project disclaimer); x86-64 only.
 - `contrib/README.md` explains *why* fixes 12–13 exist and how to verify.
-- `REVERSE_ENGINEERING_HANDBOOK.md` has the full method and findings.
